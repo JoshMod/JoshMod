@@ -1,4 +1,14 @@
 API.on(API.USER_JOIN, function(user) {
+     if (user.id == "5028752") {
+         API.sendChat("/me :relaxed: :heart: A princesa @" + user.username + " entrou na sala! :heart: :relaxed:");
+         }
+        });
+     
+     if (user.id == "3573759") {
+         API.sendChat("/me Acabou a festa! @" + user.name + " entrou na sala! :P ");
+         }
+        });
+     
      if (user.id == "3675246") {
          API.sendChat("teste");
          }
